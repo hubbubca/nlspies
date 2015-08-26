@@ -2,7 +2,7 @@
  * Spies for execution context related functions.
  */
 window.nlapiGetContext = jasmine.createSpy('nlapiGetContext() spy').and.callFake(function() {
-	return new nlobjContext();
+	return new nlobjConfiguration();
 });
 
 window.nlapiGetDepartment = jasmine.createSpy('nlapiGetDepartment() spy');
